@@ -1,0 +1,338 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "HKIBIM_Automation_2025_Demo2/1.0": {
+        "dependencies": {
+          "Grasshopper": "8.0.23304.9001",
+          "Microsoft.NETFramework.ReferenceAssemblies.net48": "1.0.3",
+          "System.Drawing.Common": "7.0.0",
+          "Tekla.Structures": "2024.0.0.0",
+          "Tekla.Structures.Model": "2024.0.0.0"
+        },
+        "runtime": {
+          "HKIBIM_Automation_2025_Demo2.gha": {}
+        }
+      },
+      "Grasshopper/8.0.23304.9001": {
+        "dependencies": {
+          "RhinoCommon": "8.0.23304.9001"
+        }
+      },
+      "Microsoft.NETFramework.ReferenceAssemblies.net48/1.0.3": {},
+      "Microsoft.Win32.SystemEvents/7.0.0": {},
+      "RhinoCommon/8.0.23304.9001": {},
+      "System.Drawing.Common/7.0.0": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "7.0.0"
+        }
+      },
+      "Tekla.Structures/2024.0.0.0": {
+        "runtime": {
+          "Tekla.Structures.dll": {
+            "assemblyVersion": "2024.0.0.0",
+            "fileVersion": "2024.0.42119.0"
+          }
+        }
+      },
+      "Tekla.Structures.Model/2024.0.0.0": {
+        "runtime": {
+          "Tekla.Structures.Model.dll": {
+            "assemblyVersion": "2024.0.0.0",
+            "fileVersion": "2024.0.42119.0"
+          }
+        }
+      },
+      "Accessibility/4.0.0.0": {
+        "runtime": {
+          "Accessibility.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.3761.0"
+          }
+        }
+      },
+      "System.Deployment/4.0.0.0": {
+        "runtime": {
+          "System.Deployment.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.3761.0"
+          }
+        }
+      },
+      "System.Runtime.Serialization.Formatters.Soap/4.0.0.0": {
+        "runtime": {
+          "System.Runtime.Serialization.Formatters.Soap.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.3761.0"
+          }
+        }
+      },
+      "Tekla.Common.Geometry.Primitives/4.5.0.0": {
+        "runtime": {
+          "Tekla.Common.Geometry.Primitives.dll": {
+            "assemblyVersion": "4.5.0.0",
+            "fileVersion": "4.5.0.0"
+          }
+        }
+      },
+      "Trimble.Remoting/1.0.0.0": {
+        "runtime": {
+          "Trimble.Remoting.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "DotNetKit/2024.0.0.0": {
+        "runtime": {
+          "DotNetKit.dll": {
+            "assemblyVersion": "2024.0.0.0",
+            "fileVersion": "2024.0.42119.0"
+          }
+        }
+      },
+      "Tekla.Common.Geometry.Shapes/4.6.2.0": {
+        "runtime": {
+          "Tekla.Common.Geometry.Shapes.dll": {
+            "assemblyVersion": "4.6.2.0",
+            "fileVersion": "4.6.2.0"
+          }
+        }
+      },
+      "Tekla.Common.Geometry/4.6.0.0": {
+        "runtime": {
+          "Tekla.Common.Geometry.dll": {
+            "assemblyVersion": "4.6.0.0",
+            "fileVersion": "4.6.0.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.0.0": {
+        "runtime": {
+          "Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      },
+      "Tekla.Technology.Serialization/4.1.0.0": {
+        "runtime": {
+          "Tekla.Technology.Serialization.dll": {
+            "assemblyVersion": "4.1.0.0",
+            "fileVersion": "4.1.1.0"
+          }
+        }
+      },
+      "Tekla.Structures.Datatype/2024.0.0.0": {
+        "runtime": {
+          "Tekla.Structures.Datatype.dll": {
+            "assemblyVersion": "2024.0.0.0",
+            "fileVersion": "2024.0.42119.0"
+          }
+        }
+      },
+      "Trimble.Technology.MsgLib/2.2.0.22326": {
+        "runtime": {
+          "Trimble.Technology.MsgLib.dll": {
+            "assemblyVersion": "2.2.0.22326",
+            "fileVersion": "2.2.0.22326"
+          }
+        }
+      },
+      "Tekla.Environment.Api.Client/1.0.0.0": {
+        "runtime": {
+          "Tekla.Environment.Api.Client.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Tekla.Environment.Api/1.0.0.0": {
+        "runtime": {
+          "Tekla.Environment.Api.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Tekla.Common.Geometry.Algorithms/4.6.2.0": {
+        "runtime": {
+          "Tekla.Common.Geometry.Algorithms.dll": {
+            "assemblyVersion": "4.6.2.0",
+            "fileVersion": "4.6.2.0"
+          }
+        }
+      },
+      "Tekla.Common.Geometry.Topology/4.6.0.0": {
+        "runtime": {
+          "Tekla.Common.Geometry.Topology.dll": {
+            "assemblyVersion": "4.6.0.0",
+            "fileVersion": "4.6.0.0"
+          }
+        }
+      },
+      "Trimble.Technology.Rkit/2.2.0.22312": {
+        "runtime": {
+          "Trimble.Technology.Rkit.dll": {
+            "assemblyVersion": "2.2.0.22312",
+            "fileVersion": "2.2.0.22312"
+          }
+        }
+      },
+      "NuGet.Versioning/6.5.0.154": {
+        "runtime": {
+          "NuGet.Versioning.dll": {
+            "assemblyVersion": "6.5.0.154",
+            "fileVersion": "6.5.0.154"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HKIBIM_Automation_2025_Demo2/1.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Grasshopper/8.0.23304.9001": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-L1Cse6nAxryzcZ7jsu3WzBiG9BYtgYsaNbRV+p55N+THKTFGmXx1PdBbiWtuxK9kB4jyuLVpeV8XBiYlSGA1Vw==",
+      "path": "grasshopper/8.0.23304.9001",
+      "hashPath": "grasshopper.8.0.23304.9001.nupkg.sha512"
+    },
+    "Microsoft.NETFramework.ReferenceAssemblies.net48/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zMk4D+9zyiEWByyQ7oPImPN/Jhpj166Ky0Nlla4eXlNL8hI/BtSJsgR8Inldd4NNpIAH3oh8yym0W2DrhXdSLQ==",
+      "path": "microsoft.netframework.referenceassemblies.net48/1.0.3",
+      "hashPath": "microsoft.netframework.referenceassemblies.net48.1.0.3.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2nXPrhdAyAzir0gLl8Yy8S5Mnm/uBSQQA7jEsILOS1MTyS7DbmV1NgViMtvV1sfCD1ebITpNwb1NIinKeJgUVQ==",
+      "path": "microsoft.win32.systemevents/7.0.0",
+      "hashPath": "microsoft.win32.systemevents.7.0.0.nupkg.sha512"
+    },
+    "RhinoCommon/8.0.23304.9001": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hWuqXjcj/eb1/z8+bml4Bav/8Oug2p6t0mAVf37GhX9sP+M1aYNO9FappqeN8oefcIBkLBmAzr46DYNhTxFAGQ==",
+      "path": "rhinocommon/8.0.23304.9001",
+      "hashPath": "rhinocommon.8.0.23304.9001.nupkg.sha512"
+    },
+    "System.Drawing.Common/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KIX+oBU38pxkKPxvLcLfIkOV5Ien8ReN78wro7OF5/erwcmortzeFx+iBswlh2Vz6gVne0khocQudGwaO1Ey6A==",
+      "path": "system.drawing.common/7.0.0",
+      "hashPath": "system.drawing.common.7.0.0.nupkg.sha512"
+    },
+    "Tekla.Structures/2024.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Tekla.Structures.Model/2024.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Accessibility/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Deployment/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Runtime.Serialization.Formatters.Soap/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Tekla.Common.Geometry.Primitives/4.5.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Trimble.Remoting/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DotNetKit/2024.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Tekla.Common.Geometry.Shapes/4.6.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Tekla.Common.Geometry/4.6.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/13.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Tekla.Technology.Serialization/4.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Tekla.Structures.Datatype/2024.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Trimble.Technology.MsgLib/2.2.0.22326": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Tekla.Environment.Api.Client/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Tekla.Environment.Api/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Tekla.Common.Geometry.Algorithms/4.6.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Tekla.Common.Geometry.Topology/4.6.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Trimble.Technology.Rkit/2.2.0.22312": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NuGet.Versioning/6.5.0.154": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
